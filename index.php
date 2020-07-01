@@ -62,13 +62,11 @@
                         echo '<h1>Yay, Well done!</h1>';
                         echo '<p class="limiter">You got ' . $_SESSION['totalCorrect'] .' of ' . $totalQuestions . ' correct!</p>'; ?>
                         <!-- Allow to reset QUIZ! - Added from:
-                            https://stackoverflow.com/questions/16562577/how-can-i-make-a-button-redirect-my-page-to-another-page -->
-                        <button onclick="location.href = 'index.php';" id="myButton" class="btn" >Reset Quiz!</button>
-
+                            https://stackoverflow.com/questions/16562577/how-can-i-make-a-button-redirect-my-page-to-another-page 
+                            <button onclick="location.href = 'index.php';" id="myButton" class="btn" >Reset Quiz!</button> -->
+                            <button onclick="location.href = 'index.php';" id="myButton" class="btn" >Reset Quiz!</button> 
                 <?php   } ?>
         </div>
     </div>
-    <?php 
-    ?>
 </body>
 </html>

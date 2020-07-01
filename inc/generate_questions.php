@@ -4,18 +4,12 @@
     @Author:Daniel Salazar
 */
 
-
 //Modify for more questions
 $limitQuestions = 0;
 
 function setLimit($newVal){
     global $limitQuestions;
     $limitQuestions = $newVal;
-}
-
-function getlimit(){
-    global $limitQuestions;
-    return $limitQuestions;
 }
 
 // Generate random questions -> 10 in order to reuse our code in quiz.php
