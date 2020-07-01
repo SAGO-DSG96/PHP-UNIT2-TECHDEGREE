@@ -26,6 +26,10 @@ if(!isset($_SESSION["Questions"])) {
     }
 }
 
+if(!isset($_SESSION['used_indexes'])){
+    $_SESSION['used_indexes'] = [];
+}
+
 // Variable to hold the total number of questions to ask.
 $totalQuestions = count($_SESSION["Questions"]);
 
